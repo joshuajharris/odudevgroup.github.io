@@ -1,6 +1,6 @@
 # Site settings
-title: Old Dominion University Developer Group
-description: "A group for students passionate about software devlopment"
+title: oduDevGroup
+description: "A group for odu students passionate about software devlopment"
 baseurl: "/odudevgroup.github.io" # the subpath of your site
 url: "http://odudevgroup.github.io"
 
@@ -30,13 +30,13 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: my posts
+  - title: posts
     url: /posts
   - title: series
     url: /series
   - title: tags
     url: /tags
-  - title: about me
+  - title: about
     url: /about
 # projects in header index
 projects:

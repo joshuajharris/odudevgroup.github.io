@@ -1,15 +1,19 @@
 ---
 layout: minimal
-title: "About me"
+title: "About"
 permalink: /about/index.html
-description: "Some description about Victor Igor..."
+description: "Information about the group"
 ---
 
 <img itemprop="image" class="img-rounded about_perfil" src="/assets/img/profile.jpg" alt="Victor Igor">
 
-<h2>My projects</h2>
+<h2>About</h2>
 
 <div class="aboutme">
+    <p>
+        Group of students passionate about development.
+    </p>
+
 	<ul class="recent">
 		{% for project in site.projects %}
 	    	<li><a href="{{ project.url}}"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>

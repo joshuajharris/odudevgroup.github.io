@@ -32,15 +32,17 @@ links:
     url: /
   - title: posts
     url: /posts
-  - title: series
-    url: /series
-  - title: tags
-    url: /tags
+  # - title: series
+  #   url: /series
+  # - title: tags
+  #   url: /tags
   - title: about
     url: /about
+  - title: contact
+    url: /contact
 # projects in header index
 projects:
-  - name: Website
+  - name: This Website
     url: https://github.com/odudevgroup/odudevgroup.github.io
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

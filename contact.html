@@ -1,0 +1,31 @@
+---
+layout: minimal
+title: "Contact"
+permalink: /contact/index.html
+description: "Send us an email"
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/profile.jpg" alt="Victor Igor">
+
+<h2>Contact Us</h2>
+
+<div class="aboutme">
+    <form action="https://formspree.io/jharr173@odu.edu" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+
+        <label for="_subject">Subject</label>
+        <select name="_subject">
+            <option value="general">General</option>
+            <option value="sponsorship">Sponsorship</option>
+        </select>
+
+        <label for="_replyto">Email</label>
+        <input type="email" name="_replyto">
+
+        <label for="_message">Message</label>
+        <textarea name="_message"></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+</div>

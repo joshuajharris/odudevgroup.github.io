@@ -1,8 +1,8 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # the subpath of your site
-url: "http://victorvoid.github.io"
+title: Old Dominion University Developer Group
+description: "A group for students passionate about software devlopment"
+baseurl: "/odudevgroup.github.io" # the subpath of your site
+url: "http://odudevgroup.github.io"
 
 # User settings
 username: lorem ipsum
@@ -45,6 +45,6 @@ projects:
   - name: vim-frontend
     url: https://github.com/victorvoid/vim-frontend
   - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+    url: https://github.com/victorvoid/generator-capybara
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

@@ -5,11 +5,11 @@ baseurl: "/odudevgroup.github.io" # the subpath of your site
 url: "http://odudevgroup.github.io"
 
 # User settings
-username: lorem ipsum
+username: oduDevGroup
 user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
+email: jharr173@odu.edu
 twitter_username: loremipsum
-github_username:  loremipsum
+github_username:  odudevgroup
 gplus_username:  loremipsum
 disqus_username: loremipsum
 

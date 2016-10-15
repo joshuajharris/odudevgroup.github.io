@@ -33,14 +33,12 @@ links:
     url: /
   - title: posts
     url: /posts
-  # - title: series
-  #   url: /series
-  # - title: tags
-  #   url: /tags
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
   - title: about
     url: /about
-  - title: contact
-    url: /contact
 # projects in header index
 projects:
   - name: This Website

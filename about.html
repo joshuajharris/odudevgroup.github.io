@@ -1,5 +1,5 @@
 ---
-layout: minimal-alt
+layout: minimal
 title: "About"
 permalink: /about/index.html
 description: "Information about the group"
@@ -23,7 +23,7 @@ description: "Information about the group"
 
 	<ul class="recent">
 		{% for project in site.projects %}
-	    	<li><a href="{{ project.url }}" target="_blank"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
+	        <li><a href="{{ project.url }}" target="_blank"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
 	    {% endfor %}
 	</ul>
 </div>

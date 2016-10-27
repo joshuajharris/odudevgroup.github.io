@@ -1,17 +1,18 @@
 # Site settings
-title: Old Dominion University Developer Group
-description: "A group for students passionate about software devlopment"
+title: oduDevGroup
+description: "A group for odu students passionate about software devlopment"
 baseurl: "/odudevgroup.github.io" # the subpath of your site
 url: "http://odudevgroup.github.io"
 
 # User settings
 username: oduDevGroup
-user_title: Lorem Ipsum - FrontEnd
+user_title: oduDevGroup
 email: jharr173@odu.edu
-twitter_username: loremipsum
+# twitter_username: loremipsum
 github_username:  odudevgroup
-gplus_username:  loremipsum
-disqus_username: loremipsum
+# gplus_username:  loremipsum
+slack_team: odudevgroup
+disqus_username: odudevgroup
 
 # Build settings
 markdown: kramdown
@@ -30,21 +31,17 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: my posts
+  - title: posts
     url: /posts
   - title: series
     url: /series
   - title: tags
     url: /tags
-  - title: about me
+  - title: about
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
+  - name: This Website
+    url: https://github.com/odudevgroup/odudevgroup.github.io
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

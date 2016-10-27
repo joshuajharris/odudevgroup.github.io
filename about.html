@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: minimal-alt
 title: "About"
 permalink: /about/index.html
 description: "Information about the group"
@@ -11,12 +11,19 @@ description: "Information about the group"
 
 <div class="aboutme">
     <p>
-        Group of students passionate about development.
+        The oduDevGroup is a community of students who are passionate about learning
+        and staying up to date in the field of web and mobile development.
+    </p>
+
+    <h3>How to get involved</h3>
+
+    <p>
+        The best way to get involved in the group is to join our slack channel.
     </p>
 
 	<ul class="recent">
 		{% for project in site.projects %}
-	    	<li><a href="{{ project.url}}" target="_blank"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
+	    	<li><a href="{{ project.url }}" target="_blank"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
 	    {% endfor %}
 	</ul>
 </div>
